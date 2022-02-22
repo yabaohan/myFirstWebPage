@@ -9,3 +9,70 @@
     type = "text/css" />
     <link href = "style.css" rel = "stylesheet" type = "text/css"/>
   </head>
+
+  <style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+
+  <header>
+
+       <nav class = "topnav" id = "myTopNav"> 
+         <a href ="index.html" > Home </a> 
+        |<a href ="about.html" > About </a>
+        |<a href = "contact.html"> Contact </a> 
+        |<a href = "gallery.html" class = "active"> Gallery </a>
+           </a>
+       </nav>
+
+ </header>
+
+<body>
+    
+<div class="gallery">
+  <a target="_blank" href="pictures/black-and-white-river-tree.jpg">
+    <img src="pictures/black-and-white-river-tree.jpg" alt="Diverging River" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+</body>

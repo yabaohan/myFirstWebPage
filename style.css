@@ -1,3 +1,58 @@
+nav{
+    margin-left: auto; 
+    margin-right: auto;
+    display:block;
+    padding-top:10px;
+
+    
+}
+
+nav > a:visited{
+    opacity:1;
+    color:#F0EBD8;
+}
+
+nav > a:hover{
+    opacity:0.6;
+    color:#F0EBD8;
+}
+
+ .active{
+   opacity: 0.3;
+  
+}
+
+.topnav{
+    background-color: #0D1321;
+}
+
+.header {
+    background-color: #0D1321;
+}
+h1 , h2{
+   
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#F0EBD8;
+}
+
+
+.portrait  {
+
+    box-shadow: 0 30px 40px #F0EBD8;
+    margin-left: auto; 
+    margin-right: auto;
+    display:block;
+    border-radius: 50%;
+    border-color: #F0EBD8;
+    border-width: 5px;
+    border-style: solid;
+    height: 200px;
+
+   
+
+}
+
 .bio-title {
     font-size: 45px;
     line-height: 2;
@@ -107,9 +162,126 @@
   margin-bottom:60px;
 }
 
-.right-side {
-    padding-top:68px;
-    padding-right:200px;
-    padding-bottom:68px;
-    padding-left:80px;
+body {
+    background-color:#f5f7fa;
+      padding:40px;
+    }
+
+.container {
+    
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    width:1200px;
+    background-color:#fff;
+  box-shadow:10px 10px 20px 0px hsla(0,0%,0%,0.1);
   }
+
+.right-side {
+    padding-left: 80px;
+    padding-right: 200px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    width:830px;
+  
+  }
+  .main{
+      background-color: #1D2D44;
+  }
+
+  footer{
+      background-color: #3E5C76;
+  }
+
+
+
+.photo{
+    width:250px;
+    height: 250px;
+    margin-top:10%;
+    margin-left: auto; 
+    margin-right: auto;
+    display:block;
+    border-radius: 50%;
+    border-color: #F0EBD8;
+    border-width: 5px;
+    border-style: solid;
+   
+}
+
+
+
+.left-side {
+    background-color: #1e2939;
+    color: #fff;
+    width:370px;
+    min-height:370px;
+  
+  }
+  .contacts-title {
+    font-size: 22px;
+    line-height: 1.091;
+    color:#fff;
+    
+  }
+  
+  .contacts-item {
+    font-size: 14px;
+    line-height: 1.714;
+      color:#fff;
+    
+  }
+  
+  .contacts-link {
+    color:#fff;
+    opacity:0.6;
+  
+  }
+
+  .contacts-link:hover {
+   
+    opacity:1;
+  
+  }
+
+  .left-side {
+    width: 370px;
+    background-color: #1e2939;
+    color: #fff;
+  }
+  
+  .skills-title {
+    font-size:22px;
+    
+      line-height:1.091;
+  
+  }
+  
+  .skills-list {
+    list-style:none;
+      padding-left:0;
+    }
+    
+    .skills-item::before {
+        content:'\2022';
+      color: #ff6b08;
+      margin-right:8px;
+      font-size:18px;
+    }
+
+    .photo,
+.contacts,
+.skills {
+margin-bottom:60px;
+}
+
+.photo,
+.contacts,
+.skills {
+  margin-bottom: 60px;
+}
+
+.contacts,.skills {
+  padding-left:40px;
+}
+    

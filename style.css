@@ -22,6 +22,9 @@ nav > a:hover{
   
 }
 
+.hobbies-list , .movies-list{
+  color:#D7FCD4
+}
 .topnav{
     background-color: #0D1321;
 }
@@ -35,6 +38,7 @@ h1 , h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#F0EBD8;
 }
+
 
 
 .portrait  {
